@@ -1,0 +1,12 @@
+name: tmp-sync-readme-todo
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ok
